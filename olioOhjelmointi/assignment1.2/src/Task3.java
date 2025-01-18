@@ -22,9 +22,13 @@ public class Task3 {
         //naula = Math.floor(naula);
         //leiviskä = Math.floor(leiviskä);
 
-        System.out.println(gram);
+        System.out.print("Luoteja: ");
         System.out.printf("%.2f%n", luoti);
-        System.out.println(naula + " naulaa");
-        System.out.println(leiviskä + " leiviskää");
+
+        System.out.print("Nauloja: ");
+        System.out.println(naula);
+
+        System.out.print("Leiviskää: ");
+        System.out.println(leiviskä);
     }
 }

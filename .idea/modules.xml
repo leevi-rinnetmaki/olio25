@@ -3,10 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/14.01.25/14.01.25.iml" filepath="$PROJECT_DIR$/14.01.25/14.01.25.iml" />
-      <module fileurl="file://$PROJECT_DIR$/assignment1.1/assignment1.1.iml" filepath="$PROJECT_DIR$/assignment1.1/assignment1.1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/assignment1.2/assignment1.2.iml" filepath="$PROJECT_DIR$/assignment1.2/assignment1.2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/assignment1.3/assignment1.3.iml" filepath="$PROJECT_DIR$/assignment1.3/assignment1.3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ohjelmointiprojekti/Ohjelmointiprojekti.iml" filepath="$PROJECT_DIR$/Ohjelmointiprojekti/Ohjelmointiprojekti.iml" />
+      <module fileurl="file://$PROJECT_DIR$/olioOhjelmointi/assignment1.1/assignment1.1.iml" filepath="$PROJECT_DIR$/olioOhjelmointi/assignment1.1/assignment1.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/olioOhjelmointi/assignment1.2/assignment1.2.iml" filepath="$PROJECT_DIR$/olioOhjelmointi/assignment1.2/assignment1.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/olioOhjelmointi/assignment1.3/assignment1.3.iml" filepath="$PROJECT_DIR$/olioOhjelmointi/assignment1.3/assignment1.3.iml" />
       <module fileurl="file://$PROJECT_DIR$/leevi-metropoloa25.iml" filepath="$PROJECT_DIR$/leevi-metropoloa25.iml" />
+      <module fileurl="file://$PROJECT_DIR$/olioOhjelmointi/olioOhjelmointi.iml" filepath="$PROJECT_DIR$/olioOhjelmointi/olioOhjelmointi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
     </modules>
   </component>
 </project>
