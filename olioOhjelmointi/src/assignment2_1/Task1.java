@@ -1,6 +1,8 @@
 package assignment2_1;
 public class Task1 {
 
+    //As practice, I made my own versions of the Television and TelevisionViewer classes.
+
     public static class Television {
         String model;
         boolean turnedOn = false;

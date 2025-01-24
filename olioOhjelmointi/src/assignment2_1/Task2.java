@@ -24,7 +24,8 @@ public class Task2 {
             // identical to instance variable names (and for more, later on)
         }
 
-        public Car(int gasolineLevel, int speed) {
+        // The additional constructor with gasoline and speed
+        public Car(double gasolineLevel, double speed) {
             this.gasolineLevel = gasolineLevel;
             this.speed = speed;
         }
