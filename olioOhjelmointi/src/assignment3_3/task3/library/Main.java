@@ -1,0 +1,40 @@
+package assignment3_3.task3.library;
+import assignment3_3.task3.library.model.Book;
+import assignment3_3.task3.library.model.LibraryMember;
+import assignment3_3.task3.library.system.Library;
+
+
+public class Main {
+    public static void main(String[] args) {
+        Library lib = new Library();
+        lib.addLibraryMember(new LibraryMember("Ford", 1));
+        lib.addLibraryMember(new LibraryMember("John", 2));
+        lib.addLibraryMember(new LibraryMember("Mike", 3));
+        lib.addLibraryMember(new LibraryMember("Bob", 4));
+
+        lib.addBook(new Book("Rust in Peace", "Megadeth", "Mikä on isbn?"));
+        lib.addBook(new Book("Peace sells, but who's buying?", "Megadeth", "."));
+
+        /*
+        lib.borrowBook("Ford", "Rust in Peace");
+        System.out.println(lib.getLibraryMember("Ford").getBorrowedBook("Rust in Peace").getTitle());
+        lib.returnBook("Ford","Rust in Peace");
+        //System.out.println(lib.getLibraryMember("Ford").getBorrowedBook("Rust in Peace").getTitle());
+        System.out.println();
+
+         */
+
+
+        lib.reserveBook("John", "Peace sells, but who's buying?");
+        lib.borrowBook("Ford", "Rust in Peace");
+        lib.borrowBook("Ford", "Peace sells, but who's buying?");
+
+        System.out.println(lib.getLibraryMember("John").getReservedBooks());
+        System.out.println(lib.getLibraryMember("Ford").getBorrowedBook("Rust in Peace").getTitle());
+        //System.out.println(lib.getLibraryMember("Ford").getBorrowedBook("Peace sells, but who's buying?").getTitle());
+        System.out.println();
+
+        lib.borrowBook("John", "Peace sells, but who's buying?");
+        System.out.println(lib.getLibraryMember("John").getBorrowedBook("Peace sells, but who's buying?").getTitle());
+    }
+}
